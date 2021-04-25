@@ -1,0 +1,101 @@
+<mvc:View
+	controllerName="com.mindset.utui5.controller.View1"
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true"
+	xmlns="sap.m"
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page
+					id="page"
+					title="{i18n>title}"
+				>
+					<content>
+						<Button
+							activeIcon="sap-icon://add"
+							enabled="true"
+							icon="sap-icon://actor"
+							iconDensityAware="true"
+							iconFirst="true"
+							text="{i18n>Button}"
+							textDirection="Inherit"
+							type="Default"
+							width=""
+							blocked="false"
+							busy="false"
+							busyIndicatorDelay="1000"
+							busyIndicatorSize="Medium"
+							fieldGroupIds="[]"
+							visible="true"
+							press= "onClick"
+							tooltip="{i18n>Button}"
+						>
+						</Button>
+						<HBox
+							alignContent="Stretch"
+							alignItems="Stretch"
+							backgroundDesign="Transparent"
+							direction="Row"
+							displayInline="false"
+							fitContainer="false"
+							
+							justifyContent="Start"
+							renderType="Div"
+							width="100%"
+							wrap="Wrap"
+							blocked="false"
+							busy="false"
+							busyIndicatorDelay="1000"
+							busyIndicatorSize="Medium"
+							fieldGroupIds="[]"
+							visible="true"
+						>
+							<items>
+								<!--sap.ui.core.Control-->
+								<Label
+									design="Standard"
+									displayOnly="false"
+									required="false"
+									text="Label"
+									textAlign="Begin"
+									textDirection="Inherit"
+									vAlign="Inherit"
+									width="auto"
+									wrapping="false"
+									wrappingType="Normal"
+									blocked="false"
+									busy="false"
+									busyIndicatorDelay="1000"
+									busyIndicatorSize="Medium"
+									fieldGroupIds="[]"
+									visible="true"
+									
+								>
+									
+								</Label>
+							</items>
+							<customData>
+								<!--sap.ui.core.CustomData-->
+							</customData>
+							<dependents>
+								<!--sap.ui.core.Element-->
+							</dependents>
+							<dragDropConfig>
+								<!--sap.ui.core.dnd.DragDropBase-->
+							</dragDropConfig>
+							<layoutData>
+								<!--sap.ui.core.LayoutData-->
+							</layoutData>
+							<tooltip>
+								<!--sap.ui.core.TooltipBase-->
+							</tooltip>
+						</HBox>
+
+
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
